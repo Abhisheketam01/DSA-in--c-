@@ -15,6 +15,7 @@ LEARN - BUILD - EXECUTE
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
 | [0605-can-place-flowers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0605-can-place-flowers) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
@@ -119,6 +120,7 @@ LEARN - BUILD - EXECUTE
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Recursion
 |  |
 | ------- |
@@ -176,4 +178,8 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
+## Sliding Window
+|  |
+| ------- |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
