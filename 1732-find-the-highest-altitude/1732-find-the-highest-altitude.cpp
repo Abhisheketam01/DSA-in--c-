@@ -1,5 +1,4 @@
 class Solution{
-// 1st approach
 public : 
     int largestAltitude(vector<int>& gain){
         int currentAltitude = 0;
@@ -14,8 +13,7 @@ public :
         return maxAltitude;
     }
 };
-
-/* 2nd approach 
+/*
 class Solution {
 public:
     int largestAltitude(vector<int>& gain) {
@@ -30,3 +28,14 @@ public:
         return maxAltitude;
     }
 };
+
+
+*/
+
+
+// class Solution {
+// public:
+//     int largestAltitude(vector<int>& gain) {
+        
+//     }
+// };
