@@ -72,6 +72,7 @@ LEARN - BUILD - EXECUTE
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0007-reverse-integer) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 ## Two Pointers
@@ -97,6 +98,7 @@ LEARN - BUILD - EXECUTE
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0237-delete-node-in-a-linked-list) |
 | [0707-design-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0707-design-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -124,6 +126,7 @@ LEARN - BUILD - EXECUTE
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
 ## Tree
 |  |
