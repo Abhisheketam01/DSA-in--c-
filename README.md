@@ -16,6 +16,7 @@ LEARN - BUILD - EXECUTE
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
 | [0605-can-place-flowers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0724-find-pivot-index) |
+| [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -36,6 +37,7 @@ LEARN - BUILD - EXECUTE
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
+| [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
