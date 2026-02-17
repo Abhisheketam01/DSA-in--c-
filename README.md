@@ -81,6 +81,7 @@ LEARN - BUILD - EXECUTE
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0007-reverse-integer) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Two Pointers
 |  |
 | ------- |
@@ -101,6 +102,7 @@ LEARN - BUILD - EXECUTE
 | [0344-reverse-string](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Linked List
 |  |
 | ------- |
