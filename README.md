@@ -51,6 +51,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Divide and Conquer
 |  |
@@ -103,6 +104,7 @@ LEARN - BUILD - EXECUTE
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
+| [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 ## Linked List
 |  |
 | ------- |
@@ -193,4 +195,8 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+## Stack
+|  |
+| ------- |
+| [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
