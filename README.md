@@ -16,6 +16,7 @@ LEARN - BUILD - EXECUTE
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
 | [0605-can-place-flowers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
@@ -50,6 +51,7 @@ LEARN - BUILD - EXECUTE
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -198,5 +200,6 @@ LEARN - BUILD - EXECUTE
 ## Stack
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
