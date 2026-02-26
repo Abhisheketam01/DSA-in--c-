@@ -83,6 +83,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Two Pointers
