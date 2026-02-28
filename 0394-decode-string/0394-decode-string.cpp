@@ -32,3 +32,44 @@ public:
       return result;
     }
 };
+
+/*
+class Solution {
+public:
+    string decodeString(string s) {
+        int n=s.size();
+        string ans="";
+        stack<string>st;
+        stack<int>num;
+        int dig=0;
+        string charformed="";
+        for (char ch:s){
+            if(isdigit(ch)){
+                dig=dig*10+(ch-'0');
+            }
+            else if (ch=='['){
+                st.push(ans);
+                num.push(dig);
+                dig=0;
+                ans="";
+            }
+            else if (ch==']'){
+                int repeated=num.top();
+                num.pop();
+                string formed=st.top();
+                st.pop();
+                string temp = ans;  
+                ans = formed;
+                while (repeated--){
+                    ans+=temp;
+                }
+            }
+            else{
+                ans+=ch;
+            }
+
+        }
+        return ans;
+    }
+};
+*/
