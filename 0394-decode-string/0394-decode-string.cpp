@@ -9,9 +9,9 @@ public:
     }
 
     string decode(const string& s, int& i) {
-      string result = "";
-      int num = 0;
-      while(i < s.size()) {
+    string result = "";
+    int num = 0;
+    while(i < s.size()) {
         char c = s[i];
         if (isdigit(c)) {
           num = num * 10 + (c - '0'); // build number
@@ -28,7 +28,7 @@ public:
           result += c; // ok, normal char
           i++;
         }
-      }
+    }
       return result;
     }
 };
