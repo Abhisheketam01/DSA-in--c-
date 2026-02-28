@@ -105,6 +105,7 @@ LEARN - BUILD - EXECUTE
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
@@ -141,6 +142,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
+| [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 ## Tree
 |  |
 | ------- |
@@ -201,6 +203,7 @@ LEARN - BUILD - EXECUTE
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
