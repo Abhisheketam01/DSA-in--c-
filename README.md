@@ -122,6 +122,7 @@ LEARN - BUILD - EXECUTE
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0707-design-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0707-design-linked-list) |
+| [0933-number-of-recent-calls](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0933-number-of-recent-calls) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -206,4 +207,12 @@ LEARN - BUILD - EXECUTE
 | [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
+## Queue
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0933-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
