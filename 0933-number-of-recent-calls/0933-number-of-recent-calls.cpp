@@ -51,34 +51,34 @@
 
 // 3rd solution using vector
 
-#include <vector>
-#include <algorithm>
+// #include <vector>
+// #include <algorithm>
 
-class RecentCounter {
-    std::vector<int> times;
-public:
-    int ping(int t) {
-        times.push_back(t);
-        // Find the first element that is within the range [t-3000, t]
-        auto it = std::lower_bound(times.begin(), times.end(), t - 3000);
-        // Distance from that element to the end of the vector is our count
-        return std::distance(it, times.end());
-    }
-};
+// class RecentCounter {
+//     std::vector<int> times;
+// public:
+//     int ping(int t) {
+//         times.push_back(t);
+//         // Find the first element that is within the range [t-3000, t]
+//         auto it = std::lower_bound(times.begin(), times.end(), t - 3000);
+//         // Distance from that element to the end of the vector is our count
+//         return std::distance(it, times.end());
+//     }
+// };
 
 
 
 // 2nd solutions using queue
-// #include <queue>
-// class RecentCounter {
-//     std::queue<int> q;
-// public:
-//     int ping(int t) {
-//         q.push(t);
-//         while (q.front() < t - 3000) q.pop();
-//         return q.size();
-//     }
-// };
+#include <queue>
+class RecentCounter {
+    std::queue<int> q;
+public:
+    int ping(int t) {
+        q.push(t);
+        while (q.front() < t - 3000) q.pop();
+        return q.size();
+    }
+};
 
 // // 1st solution using queue.
 // #include <queue>
