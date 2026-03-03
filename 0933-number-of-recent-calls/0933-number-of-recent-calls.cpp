@@ -20,37 +20,37 @@
 // };
 
 // 4th solution using string
-#include <string>
-#include <cstring>
+// #include <string>
+// #include <cstring>
 
-class RecentCounter {
-    std::string buffer; // Treating string as a raw byte array
-    int head = 0;       // Points to the start of valid data
-public:
-    int ping(int t) {
-        // Append the 4 bytes of integer 't' to the string
-        char bytes[4];
-        std::memcpy(bytes, &t, sizeof(int));
-        buffer.append(bytes, 4);
+// class RecentCounter {
+//     std::string buffer; // Treating string as a raw byte array
+//     int head = 0;       // Points to the start of valid data
+// public:
+//     int ping(int t) {
+//         // Append the 4 bytes of integer 't' to the string
+//         char bytes[4];
+//         std::memcpy(bytes, &t, sizeof(int));
+//         buffer.append(bytes, 4);
 
-        // Check the integer at 'head' index
-        int oldest;
-        while (head < buffer.size()) {
-            std::memcpy(&oldest, &buffer[head], sizeof(int));
-            if (oldest < t - 3000) {
-                head += 4; // Move head by 4 bytes (size of int)
-            } else {
-                break;
-            }
-        }
-        // Count = (Total bytes - expired bytes) / 4 bytes per int
-        return (buffer.size() - head) / 4;
-    }
-};
+//         // Check the integer at 'head' index
+//         int oldest;
+//         while (head < buffer.size()) {
+//             std::memcpy(&oldest, &buffer[head], sizeof(int));
+//             if (oldest < t - 3000) {
+//                 head += 4; // Move head by 4 bytes (size of int)
+//             } else {
+//                 break;
+//             }
+//         }
+//         // Count = (Total bytes - expired bytes) / 4 bytes per int
+//         return (buffer.size() - head) / 4;
+//     }
+// };
 
 
 // 3rd solution using vector
-/*
+
 #include <vector>
 #include <algorithm>
 
@@ -65,7 +65,7 @@ public:
         return std::distance(it, times.end());
     }
 };
-*/
+
 
 
 // 2nd solutions using queue
