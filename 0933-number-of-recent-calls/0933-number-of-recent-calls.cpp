@@ -1,16 +1,21 @@
-#include <queue>
+// Study This Approach , better.
+
 class RecentCounter {
-    std::queue<int> q;
+    int records[10001];
+    int start = 0;
+    int end = 0;
+    int count = 0;
+
 public:
     int ping(int t) {
-        q.push(t);
-        while(q.front() < t - 3000) q.pop();
-        return q.size();
+        records[end % 10001] = t;
+        end++;
+        count++;
+
+        while (records[start % 10001] < t - 3000) {
+            start++;
+            count--;
+        }
+        return count;
     }
 };
-
-/**
- * Your RecentCounter object will be instantiated and called as such:
- * RecentCounter* obj = new RecentCounter();
- * int param_1 = obj->ping(t);
- */
