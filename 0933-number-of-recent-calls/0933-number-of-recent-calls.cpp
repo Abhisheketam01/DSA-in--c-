@@ -1,7 +1,8 @@
 //2nd solutions using queue
-#include <queue>
+#include <iostream>
+using namespace std;
 class RecentCounter {
-    std::queue<int> q;
+    queue<int> q;
 public:
     int ping(int t) {
         q.push(t);
