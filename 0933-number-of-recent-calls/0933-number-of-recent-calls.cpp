@@ -1,14 +1,13 @@
 // 3rd solution using vector
 #include <iostream>
 using namespace std;
-
-class RecentCounter {
+class RecentCounter{
     vector<int> times;
 public:
-    int ping(int t) {
+    int ping(int t){
         times.push_back(t);
-        auto it = lower_bound(times.begin(), times.end(), t - 3000);
-        return distance(it, times.end());
+        auto firstEl = lower_bound(times.begin(), times.end(), t-3000);
+        return distance(firstEl , times.end());
     }
 };
 
