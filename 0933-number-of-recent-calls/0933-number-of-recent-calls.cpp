@@ -1,15 +1,13 @@
 // 5th solution-
-#include <vector>
-
+#include <iostream>
+using namespace std;
 class RecentCounter {
-    // Array size of 10001 handles up to 10,000 pings in a 3000ms window
     int records[10001]; 
     int start = 0;
     int end = 0;
     int count = 0;
 public:
     RecentCounter() {
-        // Optional: Initialize indices if the object is reused
         start = 0;
         end = 0;
         count = 0;
