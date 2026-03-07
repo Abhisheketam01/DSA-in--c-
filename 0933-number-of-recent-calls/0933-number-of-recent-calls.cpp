@@ -1,15 +1,31 @@
-// 3rd solution using vector
-#include <iostream>
-using namespace std;
-class RecentCounter{
-    vector<int> times;
+// 5th solution-
+#include <vector>
+
+class RecentCounter {
+    // Array size of 10001 handles up to 10,000 pings in a 3000ms window
+    int records[10001]; 
+    int start = 0;
+    int end = 0;
+    int count = 0;
 public:
-    int ping(int t){
-        times.push_back(t);
-        auto FE = lower_bound(times.begin(), times.end(), t-3000);
-        return distance(FE, times.end());
+    RecentCounter() {
+        // Optional: Initialize indices if the object is reused
+        start = 0;
+        end = 0;
+        count = 0;
+    }
+    int ping(int t) {
+        records[end % 10001] = t;
+        end++;
+        count++;
+        while (records[start % 10001] < t - 3000) {
+            start++;
+            count--;
+        }
+        return count;
     }
 };
+
 
 
 
