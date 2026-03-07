@@ -6,8 +6,8 @@ class RecentCounter{
 public:
     int ping(int t){
         times.push_back(t);
-        auto firstEl = lower_bound(times.begin(), times.end(), t-3000);
-        return distance(firstEl , times.end());
+        auto FE = lower_bound(times.begin(), times.end(), t-3000);
+        return distance(FE, times.end());
     }
 };
 
