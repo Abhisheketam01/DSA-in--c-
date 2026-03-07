@@ -1,12 +1,14 @@
+// 3rd solution using vector
 #include <iostream>
 using namespace std;
+
 class RecentCounter {
-    queue<int> q;
+    vector<int> times;
 public:
-    int ping(int t){
-        q.push(t);
-        while( q.front() < t - 3000) q.pop();
-        return q.size();
+    int ping(int t) {
+        times.push_back(t);
+        auto it = lower_bound(times.begin(), times.end(), t - 3000);
+        return distance(it, times.end());
     }
 };
 
