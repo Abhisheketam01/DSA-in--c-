@@ -1,45 +1,35 @@
-// 5th solution-
 #include <iostream>
 using namespace std;
-class RecentCounter {
-    int records[10001]; 
-    int start = 0;
-    int end = 0;
-    int count = 0;
+class RecentCounter{
+    int records[10001];
+    int start = 0, end = 0, count = 0;
 public:
-    RecentCounter() {
-        start = 0;
-        end = 0;
-        count = 0;
-    }
-    int ping(int t) {
+    int ping(int t){
         records[end % 10001] = t;
         end++;
         count++;
-        while (records[start % 10001] < t - 3000) {
+        while(records[start % 10001] < t - 3000){
             start++;
             count--;
-        }
+        } 
         return count;
     }
 };
-
-
-
-
 // 5th solution-
+// #include <iostream>
+// using namespace std;
 // class RecentCounter {
-//     int records[3001];
+//     int records[10001];
 //     int start = 0;
 //     int end = 0;
 //     int count = 0;
 // public:
 //     int ping(int t) {
-//         records[end % 3001] = t;
+//         records[end % 10001] = t;
 //         end++;
 //         count++;
 
-//         while (records[start % 3001] < t - 3000) {
+//         while (records[start % 10001] < t - 3000) {
 //             start++;
 //             count--;
 //         }
