@@ -1,31 +1,54 @@
-// Solution no.3 - Bottom-Up DP (Tabulation)
+// solution no.1 1. The Recursive Approach (Brute Force)
+//You said what tf is substr bro ? Gemini said In C++, substr (short for "substring") is a built-in function used to cut out a portion of a string.
 class Solution {
 public:
     bool isMatch(string s, string p) {
-        int n = s.length(), m = p.length();
-        // dp[i][j] means s[i:] matches p[j:]
-        vector<vector<bool>> dp(n + 1, vector<bool>(m + 1, false));
-
-        // BASE CASE: Empty string matches empty pattern.
-        dp[n][m] = true;
-
-        // OPERATION: Fill table from right to left. Time: O(N*M)
-        for (int i = n; i >= 0; i--) {
-            for (int j = m - 1; j >= 0; j--) {
-                // Check current match
-                bool first_match = (i < n && (p[j] == s[i] || p[j] == '.'));
-
-                if (j + 1 < m && p[j + 1] == '*') {
-                    // Logic: Match 0 (dp[i][j+2]) OR Match 1+ (first_match && dp[i+1][j])
-                    dp[i][j] = dp[i][j + 2] || (first_match && dp[i + 1][j]);
-                } else {
-                    dp[i][j] = first_match && dp[i + 1][j + 1];
-                }
-            }
+        if (p.empty()) return s.empty();
+        bool first_match = (!s.empty() && (p[0] == s[0] || p[0] == '.'));
+        if (p.length() >= 2 && p[1] == '*') {
+            return isMatch(s, p.substr(2)) || (first_match && isMatch(s.substr(1), p));
+            // case 1 || case 2
+            // in case 1 it skips char*
+            // in case 2  is says char* then that char can repeat itself no matter how much times we consider all of them = *
+        } else {
+            return first_match && isMatch(s.substr(1), p.substr(1));
         }
-        return dp[0][0];
     }
 };
+
+
+
+
+
+
+// Solution no.3 - Bottom-Up DP (Tabulation)
+// class Solution {
+// public:
+//     bool isMatch(string s, string p) {
+//         int n = s.length(), m = p.length();
+//         // dp[i][j] means s[i:] matches p[j:]
+//         vector<vector<bool>> dp(n + 1, vector<bool>(m + 1, false));
+
+//         // BASE CASE: Empty string matches empty pattern.
+//         dp[n][m] = true;
+
+//         // OPERATION: Fill table from right to left. Time: O(N*M)
+//         for (int i = n; i >= 0; i--) {
+//             for (int j = m - 1; j >= 0; j--) {
+//                 // Check current match
+//                 bool first_match = (i < n && (p[j] == s[i] || p[j] == '.'));
+
+//                 if (j + 1 < m && p[j + 1] == '*') {
+//                     // Logic: Match 0 (dp[i][j+2]) OR Match 1+ (first_match && dp[i+1][j])
+//                     dp[i][j] = dp[i][j + 2] || (first_match && dp[i + 1][j]);
+//                 } else {
+//                     dp[i][j] = first_match && dp[i + 1][j + 1];
+//                 }
+//             }
+//         }
+//         return dp[0][0];
+//     }
+// };
 
 //solution no.2 Top-Down DP (Memoization)
 // class Solution {
@@ -61,7 +84,7 @@ public:
 
 
 
-// solution no.1 1. The Recursive Approach (Brute Force)
+// // solution no.1 1. The Recursive Approach (Brute Force)
 // class Solution {
 // public:
 //     bool isMatch(string s, string p) {
