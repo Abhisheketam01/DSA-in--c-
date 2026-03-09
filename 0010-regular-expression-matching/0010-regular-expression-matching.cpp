@@ -1,7 +1,7 @@
 // Solution no.3 - Bottom-Up DP (Tabulation)
 class Solution {
 public:
-    // test case - s = "a", p = "a*b*"
+    //test case-s="a",p="a*b*"
     bool isMatch(string s, string p) {
         // n = 1 and m = 4
         int n = s.length(), m = p.length();
@@ -29,7 +29,7 @@ public:
         the loop again will start from j  = 2 ( actually the j is 0 1 2 3 since j = m - 1 ; we get j = 2)
         at i = 0 it is "a"
         ar j = 2 it is 2*
-        
+
         then firstMatche = is 'a' == 'b' no then it remains false;
         dp[0][2] == false; stays false 
         at j == 0 (a*)
