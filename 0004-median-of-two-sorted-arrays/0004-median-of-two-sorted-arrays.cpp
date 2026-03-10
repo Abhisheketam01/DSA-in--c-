@@ -11,13 +11,11 @@ public:
         while (low <= high) {
             int i = (low + high) / 2; // Cut for nums1
             int j = (m + n + 1) / 2 - i; // Corresponding cut for nums2
-
             // Handle edge cases where the cut is at the very beginning or end
             int L1 = (i == 0) ? INT_MIN : nums1[i - 1];
             int R1 = (i == m) ? INT_MAX : nums1[i];
             int L2 = (j == 0) ? INT_MIN : nums2[j - 1];
             int R2 = (j == n) ? INT_MAX : nums2[j];
-
             if (L1 <= R2 && L2 <= R1) {
                 // We found the perfect partition!
                 if ((m + n) % 2 == 0) {
