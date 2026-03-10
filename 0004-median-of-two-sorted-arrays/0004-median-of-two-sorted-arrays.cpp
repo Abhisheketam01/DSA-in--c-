@@ -1,37 +1,37 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        /*
-        Approach brute force-
-        1. Create and 3rd array call it num3
-        2. store elements of num1 and num2 in num3
-        4. already sorted so no need to sort again
-        5. if num3 size value is even e.g 4 a b c d 
-        6. if num3 size value is odd e.g a b c 
-        7. how to call a median in even num3 (size / 2 ) - 1 = medianEl=
-        8. how to call a median in odd num3 is medianel = (size / 2) 
-        */
-        // lets create an array of size n + m;
         int m = nums1.size();
         int n = nums2.size();
-        double medianEl;
-        vector<int> nums3(n+m);
+        vector<int> nums3(m + n);
+        
+        int i = 0, j = 0, k = 0;
+
+        // 1. Compare and merge while both arrays have elements
+        while (i < m && j < n) {
+            if (nums1[i] < nums2[j]) {
+                nums3[k++] = nums1[i++];
+            } else {
+                nums3[k++] = nums2[j++];
+            }
+        }
+
+        // 2. If nums1 has leftovers, dump them
+        while (i < m) {
+            nums3[k++] = nums1[i++];
+        }
+
+        // 3. If nums2 has leftovers, dump them
+        while (j < n) {
+            nums3[k++] = nums2[j++];
+        }
+
+        // 4. Median Logic (Same as before, but faster!)
         int x = nums3.size();
-        int k = 0;
-        for(int i =0; i < m; i++){
-            nums3[k++] = nums1[i];
+        if (x % 2 == 0) {
+            return (nums3[x / 2] + nums3[(x / 2) - 1]) / 2.0;
+        } else {
+            return nums3[x / 2];
         }
-        for(int i = 0; i < n; i++){
-            nums3[k++] = nums2[i];
-        }
-        sort(nums3.begin(), nums3.end());
-        if(nums3.size() % 2 == 0){
-            // even
-           medianEl = (nums3[x / 2] + nums3[(x/2)-1]) / 2.00;
-        }else{
-            //odd size
-            medianEl = nums3[x / 2];
-        }
-        return medianEl;
     }
 };
