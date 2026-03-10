@@ -1,37 +1,38 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        // Ensure nums1 is the shorter array to keep binary search fast
+        if (nums1.size() > nums2.size()) return findMedianSortedArrays(nums2, nums1);
+        
         int m = nums1.size();
         int n = nums2.size();
-        vector<int> nums3(m + n);
-        
-        int i = 0, j = 0, k = 0;
+        int low = 0, high = m;
 
-        // 1. Compare and merge while both arrays have elements
-        while (i < m && j < n) {
-            if (nums1[i] < nums2[j]) {
-                nums3[k++] = nums1[i++];
+        while (low <= high) {
+            int i = (low + high) / 2; // Cut for nums1
+            int j = (m + n + 1) / 2 - i; // Corresponding cut for nums2
+
+            // Handle edge cases where the cut is at the very beginning or end
+            int L1 = (i == 0) ? INT_MIN : nums1[i - 1];
+            int R1 = (i == m) ? INT_MAX : nums1[i];
+            int L2 = (j == 0) ? INT_MIN : nums2[j - 1];
+            int R2 = (j == n) ? INT_MAX : nums2[j];
+
+            if (L1 <= R2 && L2 <= R1) {
+                // We found the perfect partition!
+                if ((m + n) % 2 == 0) {
+                    return (max(L1, L2) + min(R1, R2)) / 2.0;
+                } else {
+                    return max(L1, L2);
+                }
+            } else if (L1 > R2) {
+                // i is too far right, move it left
+                high = i - 1;
             } else {
-                nums3[k++] = nums2[j++];
+                // i is too far left, move it right
+                low = i + 1;
             }
         }
-
-        // 2. If nums1 has leftovers, dump them
-        while (i < m) {
-            nums3[k++] = nums1[i++];
-        }
-
-        // 3. If nums2 has leftovers, dump them
-        while (j < n) {
-            nums3[k++] = nums2[j++];
-        }
-
-        // 4. Median Logic (Same as before, but faster!)
-        int x = nums3.size();
-        if (x % 2 == 0) {
-            return (nums3[x / 2] + nums3[(x / 2) - 1]) / 2.0;
-        } else {
-            return nums3[x / 2];
-        }
+        return 0.0;
     }
 };
