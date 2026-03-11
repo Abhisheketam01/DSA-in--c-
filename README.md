@@ -107,6 +107,7 @@ LEARN - BUILD - EXECUTE
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
+| [0649-dota2-senate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0649-dota2-senate) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 ## Linked List
@@ -172,6 +173,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0605-can-place-flowers) |
+| [0649-dota2-senate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0649-dota2-senate) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -210,6 +212,7 @@ LEARN - BUILD - EXECUTE
 ## Queue
 |  |
 | ------- |
+| [0649-dota2-senate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0649-dota2-senate) |
 | [0933-number-of-recent-calls](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
