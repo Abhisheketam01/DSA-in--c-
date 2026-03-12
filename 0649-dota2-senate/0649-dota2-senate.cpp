@@ -1,23 +1,23 @@
 class Solution{
 public:
     string predictPartyVictory(string senate){
-        int n = senate.length();
+        int N = senate.length();
         // here we have created 2 queues in order to push and pop
-        queue<int> qr, qd;
-        for(int i = 0; i < n; i++){
-            if(senate[i] == 'R') qr.push(i);
-            else qd.push(i);
+        queue<int> QR, QD;
+        for(int i = 0; i < N; i++){
+            if(senate[i] == 'R') QR.push(i);
+            else QD.push(i);
         }
-        while(!qr.empty() && !qd.empty()){
-            int ridx = qr.front(); qr.pop();
-            int didx = qd.front(); qd.pop();
+        while(!QR.empty() && !QD.empty()){
+            int ridx = QR.front(); QR.pop();
+            int didx = QD.front(); QD.pop();
             if( ridx  < didx){
-                qr.push(ridx + n);
+                QR.push(ridx + N);
             } else {
-                qd.push(didx + n);
+                QD.push(didx + N);
             }
         }
-    return qr.empty() ? "Dire" : "Radiant";
+    return QR.empty() ? "Dire" : "Radiant";
     }
 };
 
