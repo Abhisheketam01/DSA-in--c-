@@ -9,12 +9,12 @@ public:
             else QD.push(i);
         }
         while(!QR.empty() && !QD.empty()){
-            int ridx = QR.front(); QR.pop();
-            int didx = QD.front(); QD.pop();
-            if( ridx  < didx){
-                QR.push(ridx + N);
+            int R_idx = QR.front(); QR.pop();
+            int D_idx = QD.front(); QD.pop();
+            if( R_idx  < D_idx){
+                QR.push(R_idx + N);
             } else {
-                QD.push(didx + N);
+                QD.push(D_idx + N);
             }
         }
     return QR.empty() ? "Dire" : "Radiant";
