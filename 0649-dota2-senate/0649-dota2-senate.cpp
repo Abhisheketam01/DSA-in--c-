@@ -1,27 +1,24 @@
-class Solution{
+class Solution {
 public:
-    string predictPartyVictory(string senate){
+    string predictPartyVictory(string senate) {
+        // calculate length of senate
         int N = senate.length();
-        // trap approach ban
-        //step 1 . count R and CountD
-        int COUNTD= 0;
-        int COUNTR = 0;
-        for( char c : senate ){
-            if ( c == 'R') COUNTR++;
-            else COUNTD++;
+        // queue index approach
+        queue<int> QR, QD;
+        for(int i = 0; i < N; i++){
+            if( senate[i] == 'R') QR.push(i);
+            else QD.push(i);
         }
-        // THE GAME STARTS FROM HERE 
-        int trapD = 0, trapR= 0, i = 0;
-        while( COUNTD > 0 && COUNTR > 0){
-            if( senate[i] == 'R'){
-                if( trapR > 0) { senate[i] = 'X'; trapR--; COUNTR--;}
-                else { trapD++;}
-            }else if( senate[i] == 'D'){
-                if(trapD > 0){ senate[i] = 'X'; trapD--; COUNTD--;}
-                else { trapR++;}
+        while( !QR.empty() && !QD.empty()){
+            int R_index = QR.front(); QR.pop();
+            int D_index = QD.front(); QD.pop();
+
+            if( R_index < D_index){
+                QR.push( R_index + N);
+            } else {
+                QD.push( D_index + N);
             }
-            i = ( i + 1) % N;
         }
-        return COUNTR > 0 ? "Radiant" : "Dire";
+        return QR.empty() ? "Dire" : "Radiant";
     }
 };
