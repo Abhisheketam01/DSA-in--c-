@@ -1,30 +1,27 @@
-// Trap approach
-class Solution {
+class Solution{
 public:
-    string predictPartyVictory(string senate) {
-        /* single passs +  bans + memory eifficient 
-        1.Counter intitial R and CountD;
-        2. Keep two traps trapD and trapR
-        3. 
-        */
-        int CountR = 0;
-        int CountD = 0;
+    string predictPartyVictory(string senate){
         int N = senate.length();
-        for(char c : senate){
-            if( c == 'R') CountR++;
-            else CountD++;
+        // trap approach ban
+        //step 1 . count R and CountD
+        int COUNTD= 0;
+        int COUNTR = 0;
+        for( char c : senate ){
+            if ( c == 'R') COUNTR++;
+            else COUNTD++;
         }
-        int trapR = 0, trapD = 0, i = 0; 
-        while( CountR > 0 && CountD > 0){
+        // THE GAME STARTS FROM HERE 
+        int trapD = 0, trapR= 0, i = 0;
+        while( COUNTD > 0 && COUNTR > 0){
             if( senate[i] == 'R'){
-                if(trapR > 0) {senate[i] = 'X'; trapR--; CountR--;}
-                else { trapD++; }
-            } else if( senate[i] == 'D'){
-                if(  trapD > 0 ) { senate[i] = 'X'; trapD--; CountD--;}
-                else { trapR++; }
+                if( trapR > 0) { senate[i] = 'X'; trapR--; COUNTR--;}
+                else { trapD++;}
+            }else if( senate[i] == 'D'){
+                if(trapD > 0){ senate[i] = 'X'; trapD--; COUNTD--;}
+                else { trapR++;}
             }
-            i = ( i + 1 ) % N;
+            i = ( i + 1) % N;
         }
-        return CountR > 0 ? "Radiant" : "Dire";
+        return COUNTR > 0 ? "Radiant" : "Dire";
     }
 };
