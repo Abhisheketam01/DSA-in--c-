@@ -1,29 +1,30 @@
+// Trap approach
 class Solution {
 public:
     string predictPartyVictory(string senate) {
+        /* single passs +  bans + memory eifficient 
+        1.Counter intitial R and CountD;
+        2. Keep two traps trapD and trapR
+        3. 
+        */
+        int CountR = 0;
+        int CountD = 0;
         int N = senate.length();
-        bool R_exist = true, D_exist = true;
-        while( R_exist && D_exist ){
-            R_exist = false;
-            D_exist = false;
-            for(int i = 0; i < N; i++){
-                if( senate[i] == 'R'){
-                    R_exist = true;
-                    int j = ( i + 1 ) % N;
-                    while( senate[j] != 'D' && j != i){
-                        j = ( j + 1 ) % N;
-                    }
-                    if( j != i) senate[j] = 'X';   
-                } else if (senate[i] == 'D'){
-                    D_exist = true;
-                    int j = ( i + 1 ) % N;
-                    while( senate[j] != 'R' && j != i){
-                        j = ( j + 1) % N;
-                    }
-                    if ( j != i) senate[j] = 'X'; 
-                }
-            }
+        for(char c : senate){
+            if( c == 'R') CountR++;
+            else CountD++;
         }
-        return R_exist ? "Radiant" : "Dire";
+        int trapR = 0, trapD = 0, i = 0; 
+        while( CountR > 0 && CountD > 0){
+            if( senate[i] == 'R'){
+                if(trapR > 0) {senate[i] = 'X'; trapR--; CountR--;}
+                else { trapD++; }
+            } else if( senate[i] == 'D'){
+                if(  trapD > 0 ) { senate[i] = 'X'; trapD--; CountD--;}
+                else { trapR++; }
+            }
+            i = ( i + 1 ) % N;
+        }
+        return CountR > 0 ? "Radiant" : "Dire";
     }
 };
