@@ -34,6 +34,7 @@ LEARN - BUILD - EXECUTE
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
@@ -84,6 +85,7 @@ LEARN - BUILD - EXECUTE
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Two Pointers
@@ -99,6 +101,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
+| [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
