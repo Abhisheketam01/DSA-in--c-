@@ -41,6 +41,7 @@ LEARN - BUILD - EXECUTE
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Sorting
@@ -75,6 +76,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
+| [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
 ## Quickselect
 |  |
 | ------- |
@@ -112,6 +114,7 @@ LEARN - BUILD - EXECUTE
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
 | [0649-dota2-senate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0649-dota2-senate) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
+| [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 ## Linked List
 |  |
@@ -131,6 +134,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0191-number-of-1-bits) |
+| [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
 ## Binary Search
 |  |
 | ------- |
