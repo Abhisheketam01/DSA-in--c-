@@ -19,6 +19,14 @@ public:
             }
         }
         return ' '; 
+        /*
+        kyaa seekha ?
+        1. how to create a set of char'
+        3. how to run a for char loop
+        4. how to check if the char is already in set or not ?
+        5. if yes return ch;
+        6. else set.insert(ch)
+        */
     }
 };
 
