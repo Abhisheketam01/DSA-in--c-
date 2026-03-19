@@ -155,12 +155,14 @@ LEARN - BUILD - EXECUTE
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -169,6 +171,7 @@ LEARN - BUILD - EXECUTE
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -176,6 +179,7 @@ LEARN - BUILD - EXECUTE
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
