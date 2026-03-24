@@ -122,6 +122,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0237-delete-node-in-a-linked-list) |
+| [0328-odd-even-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0328-odd-even-linked-list) |
 | [0707-design-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0707-design-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
