@@ -121,6 +121,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
+| [0206-reverse-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0328-odd-even-linked-list) |
 | [0707-design-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0707-design-linked-list) |
@@ -155,6 +156,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0002-add-two-numbers](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
+| [0206-reverse-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 ## Tree
 |  |
