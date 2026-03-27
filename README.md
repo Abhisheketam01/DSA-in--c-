@@ -9,6 +9,7 @@ LEARN - BUILD - EXECUTE
 | [0004-median-of-two-sorted-arrays](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0238-product-of-array-except-self) |
 | [0334-increasing-triplet-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0334-increasing-triplet-subsequence) |
@@ -36,6 +37,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
@@ -61,6 +63,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0191-number-of-1-bits](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
@@ -164,6 +167,7 @@ LEARN - BUILD - EXECUTE
 | [0100-same-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -195,6 +199,7 @@ LEARN - BUILD - EXECUTE
 | [0100-same-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
