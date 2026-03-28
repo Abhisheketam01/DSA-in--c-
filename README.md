@@ -170,6 +170,7 @@ LEARN - BUILD - EXECUTE
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Depth-First Search
@@ -180,6 +181,7 @@ LEARN - BUILD - EXECUTE
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0226-invert-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0547-number-of-provinces) |
@@ -202,6 +204,7 @@ LEARN - BUILD - EXECUTE
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Greedy
@@ -230,6 +233,7 @@ LEARN - BUILD - EXECUTE
 ## Binary Search Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Trie
 |  |
