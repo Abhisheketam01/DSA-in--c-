@@ -22,6 +22,7 @@ LEARN - BUILD - EXECUTE
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -42,6 +43,7 @@ LEARN - BUILD - EXECUTE
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
+| [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
@@ -51,11 +53,13 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
+| [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Simulation
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
+| [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
