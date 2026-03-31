@@ -107,6 +107,7 @@ LEARN - BUILD - EXECUTE
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## String
 |  |
 | ------- |
@@ -133,6 +134,7 @@ LEARN - BUILD - EXECUTE
 | [0328-odd-even-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0328-odd-even-linked-list) |
 | [0707-design-linked-list](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0707-design-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Design
 |  |
@@ -252,6 +254,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2390-removing-stars-from-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2390-removing-stars-from-a-string) |
 ## Queue
 |  |
