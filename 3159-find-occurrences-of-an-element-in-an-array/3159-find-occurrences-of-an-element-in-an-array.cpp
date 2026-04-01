@@ -1,22 +1,28 @@
-class Solution {
-public :
+class Solution{
+public:
+// return type is vector answer
     vector<int> occurrencesOfElement(vector<int>& nums, vector<int>& queries, int x){
-        /* step 1 , store the indices of x found in nums */
+        // create a list , vector called indices
         vector<int> indices;
-        for(int i = 0;i< nums.size(); i++){
+        // first for loop
+        for(int i = 0; i < nums.size(); i++){
             if(nums[i] == x){
                 indices.push_back(i);
             }
         }
-        /* step 2 . create an array result of size.queries and put -1 */
+        //
         int q = queries.size();
-        vector<int> result(q, -1);
-        for(int i = 0; i < q; i++){
-            int k = queries[i];
+        vector<int> answer(q,-1);
+        int k = 0;
+        for(int i = 0; i < queries.size(); i++){
+            k = queries[i];
             if(k <= indices.size()){
-                result[i] = indices[k-1];
+                answer[i] = indices[k-1];
+                k++;
             }
         }
-        return result;
+        return answer;
     }
 };
+
+
