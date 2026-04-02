@@ -36,6 +36,7 @@ LEARN - BUILD - EXECUTE
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -111,6 +112,7 @@ LEARN - BUILD - EXECUTE
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
 | [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
@@ -248,6 +250,7 @@ LEARN - BUILD - EXECUTE
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Stack
 |  |
