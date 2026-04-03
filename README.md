@@ -101,6 +101,7 @@ LEARN - BUILD - EXECUTE
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
@@ -113,6 +114,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
 | [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
@@ -157,6 +159,7 @@ LEARN - BUILD - EXECUTE
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
