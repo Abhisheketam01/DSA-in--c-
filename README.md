@@ -19,6 +19,7 @@ LEARN - BUILD - EXECUTE
 | [0724-find-pivot-index](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1752-check-if-array-is-sorted-and-rotated) |
