@@ -28,6 +28,7 @@ LEARN - BUILD - EXECUTE
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3683-earliest-time-to-finish-one-task](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3683-earliest-time-to-finish-one-task) |
+| [3804-number-of-centered-subarrays](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3804-number-of-centered-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -50,6 +51,7 @@ LEARN - BUILD - EXECUTE
 | [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3804-number-of-centered-subarrays](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3804-number-of-centered-subarrays) |
 ## Sorting
 |  |
 | ------- |
@@ -272,4 +274,8 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0933-number-of-recent-calls) |
+## Enumeration
+|  |
+| ------- |
+| [3804-number-of-centered-subarrays](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3804-number-of-centered-subarrays) |
 <!---LeetCode Topics End-->
