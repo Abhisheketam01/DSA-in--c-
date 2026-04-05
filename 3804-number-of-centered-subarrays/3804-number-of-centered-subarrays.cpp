@@ -9,25 +9,28 @@ public:
         // liberation bass. always keep that goal in mind and ask is this
         // algigning with my goal
 
-        int n = nums.size();
-        int count = 0;
-
-        // Start index of the subarray
-        for (int i = 0; i < n; i++) {
-            std::unordered_set<int> elements;
+        // ordered matters - mistake correctex
+        // step 1
+        int SZ = nums.size();
+        int counter = 0;
+        // step 2 pick a starting element
+        for (int i = 0; i < SZ; i++) {
+            // stpe 3 - everytim we have to reset the unordered set and
+            // everytime we have to reset the currentSum = 0;
+            unordered_set<int> SET;
             long long currentSum = 0;
-
-            // End index of the subarray
-            for (int j = i; j < n; j++) {
+            // pick the ending point
+            for (int j = i; j < SZ; j++) {
+                // calculate the currentsum
                 currentSum += nums[j];
-                elements.insert(nums[j]);
-
-                // Check if the current sum is one of the elements in this specific subarray
-                if (elements.find((int)currentSum) != elements.end()) {
-                    count++;
+                // store the sum in set
+                SET.insert(nums[j]);
+                // check if the count currentSum do exist inSET or not
+                if (SET.count((int)currentSum)) {
+                    counter++;
                 }
             }
         }
-        return count;
+        return counter;
     }
 };
