@@ -187,6 +187,7 @@ LEARN - BUILD - EXECUTE
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0872-leaf-similar-trees) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -199,6 +200,7 @@ LEARN - BUILD - EXECUTE
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0547-number-of-provinces) |
+| [0872-leaf-similar-trees](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0872-leaf-similar-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -221,6 +223,7 @@ LEARN - BUILD - EXECUTE
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0872-leaf-similar-trees) |
 ## Greedy
 |  |
 | ------- |
