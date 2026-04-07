@@ -21,14 +21,16 @@ class Solution {
             generateLeafSequence(root1, leaves1);
             generateLeafSequence(root2, leaves2);
 
-            return leaves1.equals(leaves2);
+        // Compares both leaf sequences for exact equality in both value and position.
+        // Returns true only if every leaf matches its counterpart in the same order.
+        return leaves1.equals(leaves2);
     }
     private void generateLeafSequence(TreeNode node, List<Integer> leaves) {
         if (node == null)
             return;
 
         if (node.left == null && node.right == null) {
-                leaves.add(node.val);
+            leaves.add(node.val);
         }
 
         generateLeafSequence(node.left, leaves);
