@@ -62,6 +62,7 @@ LEARN - BUILD - EXECUTE
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -100,6 +101,7 @@ LEARN - BUILD - EXECUTE
 | [0009-palindrome-number](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
+| [0412-fizz-buzz](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0412-fizz-buzz) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Two Pointers
 |  |
@@ -127,6 +129,7 @@ LEARN - BUILD - EXECUTE
 | [0344-reverse-string](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0394-decode-string) |
+| [0412-fizz-buzz](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0412-fizz-buzz) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
 | [0649-dota2-senate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0649-dota2-senate) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1071-greatest-common-divisor-of-strings) |
