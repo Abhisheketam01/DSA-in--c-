@@ -9,6 +9,7 @@ LEARN - BUILD - EXECUTE
 | [0004-median-of-two-sorted-arrays](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0238-product-of-array-except-self) |
@@ -72,6 +73,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0191-number-of-1-bits](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
@@ -167,6 +169,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0010-regular-expression-matching) |
+| [0053-maximum-subarray](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0053-maximum-subarray) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
