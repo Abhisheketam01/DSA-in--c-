@@ -45,6 +45,7 @@ LEARN - BUILD - EXECUTE
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
@@ -57,6 +58,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
+| [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -128,6 +130,7 @@ LEARN - BUILD - EXECUTE
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0345-reverse-vowels-of-a-string) |
