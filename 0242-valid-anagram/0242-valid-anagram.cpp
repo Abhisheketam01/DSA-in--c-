@@ -1,24 +1,22 @@
-
-// gotta learn from these mistakes -  store karna element ko and 
 class Solution{
 public:
     bool isAnagram(string s, string t){
-        // check the length() if its not equal , return false;
         if(s.length() != t.length()){
             return false;
         }
-        // convert characters into numbers concept 
-        // here we create int charCounts of size 26;
-        int charCounts[26] = {0};
-        // run a for loop
-        for(int i = 0; i < s.length(); i++){
-            // convert chars into numbers , jo s mai hai usko kardo +1 and jo t mai hai usko kardo -1 and this is how things get done , 
-            charCounts[s[i] - 'a']++;
-            charCounts[t[i] - 'a']--;
+        // step 2 map char , int
+        unordered_map<char, int> charCounts;
+        // tracking the tecord of each char - char and its frequency 
+        for(char x : s){
+            charCounts[x]++;
         }
-        // agar unme se koi bhi integer is not equal to 0 then return false else true
-        for(int count : charCounts){
-            if(count != 0) return false;
+        // step 4
+        for(char x : t){
+            // wo character mila he nahi and uska point is 0
+            if(charCounts.find(x) == charCounts.end() || charCounts[x] == 0){
+                return false;
+            }
+            charCounts[x]--;
         }
         return true;
     }
