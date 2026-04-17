@@ -1,22 +1,14 @@
-class Solution{
+// sort approach - 
+class Solution {
 public:
     bool containsDuplicate(vector<int>& nums){
-    unordered_set<int> seen;
-    for(int x : nums){
-        if(seen.count(x)){
-            return true;
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        for(int i = 0; i < n - 1; i++){
+            if(nums[i] == nums[i+1]){
+                return true;
+            }
         }
-        seen.insert(x);
-    }
-    return false;
+        return false;
     }
 };
-/*
-// what i though is ki pehle set create karo and then baher ek loop lagalo for ka if 
-that number found in seen guess what boom return true;
-else return false;
-
-here they have directly - 
-done for pehle for loop and then 
-
-*/
