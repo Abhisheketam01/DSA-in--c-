@@ -12,6 +12,7 @@ LEARN - BUILD - EXECUTE
 | [0053-maximum-subarray](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0238-product-of-array-except-self) |
 | [0334-increasing-triplet-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
@@ -45,6 +46,7 @@ LEARN - BUILD - EXECUTE
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
@@ -58,6 +60,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
+| [0217-contains-duplicate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
