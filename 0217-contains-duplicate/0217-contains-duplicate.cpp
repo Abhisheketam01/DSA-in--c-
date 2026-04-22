@@ -1,5 +1,5 @@
 // sort approach -
-class Solution{
+class Solution {
 public:
     bool containsDuplicate(vector<int>& nums){
         int n = nums.size();
