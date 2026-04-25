@@ -21,6 +21,7 @@ LEARN - BUILD - EXECUTE
 | [0724-find-pivot-index](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0735-asteroid-collision) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
@@ -36,6 +37,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0238-product-of-array-except-self) |
 | [0724-find-pivot-index](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0724-find-pivot-index) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
 ## Hash Table
 |  |
@@ -172,6 +174,7 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -299,4 +302,8 @@ LEARN - BUILD - EXECUTE
 |  |
 | ------- |
 | [3804-number-of-centered-subarrays](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3804-number-of-centered-subarrays) |
+## Matrix
+|  |
+| ------- |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 <!---LeetCode Topics End-->
