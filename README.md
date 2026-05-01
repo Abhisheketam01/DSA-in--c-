@@ -118,6 +118,7 @@ LEARN - BUILD - EXECUTE
 | [0005-longest-palindromic-substring](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0345-reverse-vowels-of-a-string) |
@@ -134,6 +135,7 @@ LEARN - BUILD - EXECUTE
 | [0013-roman-to-integer](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
