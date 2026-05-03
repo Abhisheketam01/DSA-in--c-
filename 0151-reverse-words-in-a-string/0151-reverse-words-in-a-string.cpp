@@ -19,6 +19,7 @@ public:
 
         // step 4 - use reverse operation
         reverse(words.begin(), words.end());
+        // - { "Etam", "Deepak", "Abhishek"}
 
         // step 5 - create a string called ans = "";
         string ans = "";
@@ -27,5 +28,6 @@ public:
             if( i != words.size()-1) ans += " ";
         }
         return ans;
+        // ans = "Etam Deepak Abhishek"
     }
 };
