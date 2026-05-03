@@ -1,20 +1,31 @@
-class Solution {
+class Solution{
 public:
     string reverseWords(string s){
-        int n = s.length();
-        int i = n - 1;
+        // lets say s = "Abhishek Deepak Etam"
+        // step 1 
+        // peso ke peeche pagal hu main kyu ki meri maa aur mera baap dono peso ke peche pagal hai 
+        stringstream ss(s);
+        // ss = "Abhishek Deepak Etam"
 
+        // step 2 - create string word and create a vector string called words
+        string word;
+        vector<string> words;
+
+        // step 3 - the thing is sstream automatically handles multiple spaves
+        while(ss >> word){
+            words.push_back(word);
+        }
+        // words = { "Abhishek", "Deepak", "Etam"}
+
+        // step 4 - use reverse operation
+        reverse(words.begin(), words.end());
+
+        // step 5 - create a string called ans = "";
         string ans = "";
-        while( i >= 0){
-            while( i>= 0 && s[i] == ' ') i--;
-            if( i < 0 ) break;
-            int j = i;
-            while( i >= 0 && s[i] != ' ') i--;
-            if(!ans.empty()) ans += ' ';
-            ans += s.substr(i+1, j-i);
+        for(int i = 0; i < words.size(); i++){
+            ans += words[i];
+            if( i != words.size()-1) ans += " ";
         }
         return ans;
     }
 };
-
-// No human , no woman , no man  = no suffering , end bhenchod.
