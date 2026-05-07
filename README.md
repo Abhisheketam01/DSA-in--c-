@@ -29,6 +29,7 @@ LEARN - BUILD - EXECUTE
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3683-earliest-time-to-finish-one-task](https://github.com/Abhisheketam01/DSA-in-java/tree/master/3683-earliest-time-to-finish-one-task) |
 | [3804-number-of-centered-subarrays](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3804-number-of-centered-subarrays) |
@@ -172,6 +173,7 @@ LEARN - BUILD - EXECUTE
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0191-number-of-1-bits) |
 | [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 ## Binary Search
 |  |
 | ------- |
