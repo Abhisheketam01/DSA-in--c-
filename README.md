@@ -188,6 +188,7 @@ LEARN - BUILD - EXECUTE
 | [0124-binary-tree-maximum-path-sum](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Recursion
 |  |
@@ -210,6 +211,7 @@ LEARN - BUILD - EXECUTE
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0437-path-sum-iii](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0437-path-sum-iii) |
 | [0872-leaf-similar-trees](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0872-leaf-similar-trees) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -225,6 +227,7 @@ LEARN - BUILD - EXECUTE
 | [0437-path-sum-iii](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0437-path-sum-iii) |
 | [0547-number-of-provinces](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0547-number-of-provinces) |
 | [0872-leaf-similar-trees](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0872-leaf-similar-trees) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -251,6 +254,7 @@ LEARN - BUILD - EXECUTE
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0437-path-sum-iii](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0437-path-sum-iii) |
 | [0872-leaf-similar-trees](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0872-leaf-similar-trees) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Greedy
 |  |
