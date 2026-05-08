@@ -1,24 +1,27 @@
 class Solution{
 public:
-    // we define the int variable called as pathLength
-    int pathLength = 0;
+    int maxPath = 0;
 
-    void dfs(TreeNode* node, bool goLeft, int steps){
-        if(node == nullptr){
-            return;
-        }
-        pathLength = max(pathLength, steps);
-        if(goLeft){
-            dfs(node->left, false, steps + 1);
-            dfs(node->right, true, 1);
-        } else {
-            dfs(node->left, false, 1);
-            dfs(node->right, true, steps + 1);
-        }
+    void solve(TreeNode* root, int left, int right){
+        if(!root) return;
+
+        maxPath = max({maxPath, left, right});
+        // maxPath compares all of them and return the maximum value among theree of them
+
+        solve(root->left, right+1, 0);
+        solve(root->right, 0, left +1); 
     }
+
     int longestZigZag(TreeNode* root){
-        dfs(root, false, 0);
-        dfs(root, true, 0);
-        return pathLength;
+        solve(root, 0, 0);
+        return maxPath;
     }
 };
+
+/*
+
+Here the logic is simple - 
+came from L then right ki value + 1;
+came from R then left ki value  + 1;
+
+*/
