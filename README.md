@@ -15,6 +15,7 @@ LEARN - BUILD - EXECUTE
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0416-partition-equal-subset-sum) |
@@ -123,6 +124,7 @@ LEARN - BUILD - EXECUTE
 | [0125-valid-palindrome](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
