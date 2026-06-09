@@ -4,7 +4,8 @@ public:
         int write = 0;
         for(int i = 0; i < nums.size(); i++){
             if(nums[i] != 0){
-                nums[write++] = nums[i];
+                nums[write] = nums[i];
+                write++;
             }
         }
         while(write < nums.size()){
