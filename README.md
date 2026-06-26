@@ -27,6 +27,7 @@ LEARN - BUILD - EXECUTE
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1732-find-the-highest-altitude](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
@@ -57,6 +58,7 @@ LEARN - BUILD - EXECUTE
 | [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
 | [1207-unique-number-of-occurrences](https://github.com/Abhisheketam01/DSA-in-java/tree/master/1207-unique-number-of-occurrences) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2351-first-letter-to-appear-twice](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2351-first-letter-to-appear-twice) |
@@ -70,6 +72,7 @@ LEARN - BUILD - EXECUTE
 | [0217-contains-duplicate](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0347-top-k-frequent-elements) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Abhisheketam01/DSA-in-java/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Simulation
@@ -131,6 +134,7 @@ LEARN - BUILD - EXECUTE
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Abhisheketam01/DSA-in-java/tree/master/0443-string-compression) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Abhisheketam01/DSA-in--c-/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## String
