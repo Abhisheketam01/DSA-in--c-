@@ -1,12 +1,13 @@
 class Solution{
 public:
     bool isSubsequence(string s, string t){
-        int current = 0;
+        // here we take 3rd variable to handle this shot
+        int write = 0;
         for(int i = 0; i < t.length(); i++){
-            if(current < s.size() && t[i] == s[current]){
-                current++;
+            if(s[write] == t[i]){
+                write++;
             }
         }
-        return current == s.size();
+        return write == s.size();
     }
 };
