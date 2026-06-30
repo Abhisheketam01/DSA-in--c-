@@ -1,9 +1,8 @@
 class Solution{
 public:
     bool isSubsequence(string s, string t){
-        // 3rd variable lets call it current 
         int current = 0;
-        for(int i = 0; i < t.length(); i++){
+        for(int i = 0; i < t.size(); i++){
             if(current < s.size() && s[current] == t[i]){
                 current++;
             }
