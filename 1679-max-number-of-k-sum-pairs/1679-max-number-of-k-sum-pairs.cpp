@@ -1,17 +1,19 @@
-class Solution {
+class Solution{
 public:
-    int maxOperations(vector<int>& nums, int k) {
-        int PairCount = 0;
-        unordered_map<int, int> map;
-        for(int i = 0; i < nums.size(); i++){
-            int comp = k  - nums[i];
-            if(map[comp] > 0){
-                PairCount++;
-                map[comp]--;
-            } else {
-                map[nums[i]]++;
+    int maxOperations(vector<int>& nums, int k){
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        int left = 0, right = n - 1 , count = 0;
+        while( left < right ){
+            int sum = nums[left] + nums[right];
+            if(sum == k){
+                left++, right-- , count++;
+            } else if(sum < k){
+                left++;
+            } else{
+                right--;
             }
         }
-        return PairCount;
+        return count;
     }
 };
