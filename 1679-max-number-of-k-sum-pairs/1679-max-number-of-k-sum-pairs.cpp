@@ -1,19 +1,21 @@
 class Solution{
 public:
     int maxOperations(vector<int>& nums, int k){
-        int n = nums.size();
-        sort(nums.begin(), nums.end());
-        int left = 0, right = n - 1 , count = 0;
-        while( left < right ){
-            int sum = nums[left] + nums[right];
-            if(sum == k){
-                left++, right-- , count++;
-            } else if(sum < k){
-                left++;
-            } else{
-                right--;
+        unordered_map<int , int> freqmap;
+        int PairCount = 0;
+        for(int i = 0; i < nums.size(); i++){
+            int comp = k - nums[i];
+            if(freqmap[comp] > 0){
+                PairCount++;
+                freqmap[comp]--;
+            } else {
+                freqmap[nums[i]]++;
             }
         }
-        return count;
+        return PairCount;
     }
 };
+/*
+Input: nums = [1,2,3,4], k = 5
+Output: 2
+*/
