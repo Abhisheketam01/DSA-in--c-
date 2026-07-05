@@ -13,6 +13,7 @@ public:
         if(leftN != NULL && rightN != NULL){
             return root;
         }
+
         if(leftN != NULL){
             return leftN;
         } else {
