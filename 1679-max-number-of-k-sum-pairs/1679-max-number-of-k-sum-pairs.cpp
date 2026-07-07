@@ -2,16 +2,22 @@
 class Solution{
 public:
     int maxOperations(vector<int>& nums, int k){
+        int i = 0;
+        int ArrSize = nums.size();
+        int j = ArrSize - 1;
+        int sum = 0;
         int paircount = 0;
-        int comp;
-        unordered_map<int, int> freqmap;
-        for(int i = 0; i < nums.size(); i++){
-            comp = k - nums[i];
-            if(freqmap[comp] > 0){
+        sort(nums.begin(), nums.end());
+        while( i < j ){
+            sum = nums[i] + nums[j];
+            if(sum == k){
                 paircount++;
-                freqmap[comp]--;
+                i++;
+                j--;
+            } else if(sum < k){
+                i++;
             } else {
-                freqmap[nums[i]]++;
+                j--;
             }
         }
         return paircount;
