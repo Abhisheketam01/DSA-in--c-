@@ -2,22 +2,19 @@ class Solution{
 public:
     int maxLevelSum(TreeNode* root){
         int maxsum = INT_MIN;
-        int resultlevel = 0;
-        int currlevel = 1;
+        int resultlevel = 0; // tracks final answer
+        int currentlevel = 1; // level by level
 
-        // create a queueu
         queue<TreeNode*> que;
         que.push(root);
 
         while(!que.empty()){
-            // not the whole size but sirf uss level ka size
             int n = que.size();
             int sum = 0;
             while(n--){
-                TreeNode* node = que.front();
+                TreeNode * node = que.front();
                 que.pop();
                 sum = sum + node->val;
-
                 if(node->left){
                     que.push(node->left);
                 }
@@ -27,9 +24,9 @@ public:
             }
             if(sum > maxsum){
                 maxsum = sum;
-                resultlevel = currlevel;
+                resultlevel = currentlevel;
             }
-            currlevel++;
+            currentlevel++;
         }
         return resultlevel;
     }
