@@ -4,6 +4,7 @@ public:
         if(!root){
             return {};
         }
+
         queue<TreeNode*> que;
         vector<int> result;
 
@@ -11,19 +12,20 @@ public:
 
         while(!que.empty()){
             int n = que.size();
-            TreeNode* rightNode = NULL;
+            TreeNode* Node = NULL;
             while(n--){
-                rightNode = que.front();
+                // this node will be our last node when the while loop finishes
+                Node = que.front();
                 que.pop();
 
-                if(rightNode->left){
-                    que.push(rightNode->left);
+                if(Node->left){
+                    que.push(Node->left);
                 }
-                if(rightNode->right){
-                    que.push(rightNode->right);
+                if(Node->right){
+                    que.push(Node->right);
                 }
             }
-            result.push_back(rightNode->val);
+            result.push_back(Node->val);
         }
         return result;
     }
