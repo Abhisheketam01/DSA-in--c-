@@ -1,32 +1,23 @@
 class Solution{
 public:
+    void postOrder(TreeNode* root, int level, vector<int>& result){
+        if(!root){
+            return;
+        }
+        if(result.size() < level){
+            result.push_back(root->val);
+        }
+        postOrder(root->right, level+1, result);
+        postOrder(root->left, level+1, result);
+    }
     vector<int> rightSideView(TreeNode* root){
         if(!root){
-            return {};
+            return{};
         }
-
-        queue<TreeNode*> que;
         vector<int> result;
 
-        que.push(root);
+        postOrder(root, 1 , result);
 
-        while(!que.empty()){
-            int n = que.size();
-            TreeNode* Node = NULL;
-            while(n--){
-                // this node will be our last node when the while loop finishes
-                Node = que.front();
-                que.pop();
-
-                if(Node->left){
-                    que.push(Node->left);
-                }
-                if(Node->right){
-                    que.push(Node->right);
-                }
-            }
-            result.push_back(Node->val);
-        }
         return result;
     }
 };
