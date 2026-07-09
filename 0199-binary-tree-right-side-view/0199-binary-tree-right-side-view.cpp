@@ -1,26 +1,30 @@
 class Solution{
 public:
-    void preOrder(TreeNode* root, int level, vector<int>& result){
-        if(!root){
-            return;
-        }
-
-        if(result.size() < level){
-            result.push_back(root->val);
-        }
-
-        preOrder(root->right, level + 1, result);
-        preOrder(root->left, level + 1, result);
-    }
-
     vector<int> rightSideView(TreeNode* root){
         if(!root){
             return {};
         }
+        queue<TreeNode*> que;
         vector<int> result;
 
-        preOrder(root, 1, result);
+        que.push(root);
 
+        while(!que.empty()){
+            int n = que.size();
+            TreeNode* Node = NULL;
+            while(n--){
+                Node = que.front();
+                que.pop();
+
+                if(Node->left){
+                    que.push(Node->left);
+                }
+                if(Node->right){
+                    que.push(Node->right);
+                }
+            }
+            result.push_back(Node->val);
+        }
         return result;
     }
 };
