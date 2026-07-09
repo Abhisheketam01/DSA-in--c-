@@ -1,34 +1,32 @@
+// BFS queueu approach
 class Solution{
 public:
-    map<int, int> mp;
-    void DFS(TreeNode* root, int currentlevel){
-        if(!root){
-            return;
-        }
-        mp[currentlevel] += root->val;
-
-        DFS(root->left, currentlevel+1);
-        DFS(root->right, currentlevel+1);
-    }
-
     int maxLevelSum(TreeNode* root){
-        mp.clear();
-
-        DFS(root, 1);
-
-        int maxSum = INT_MIN;
-        int result = 0;
-
-        for(auto &it : mp){
-            int level = it.first;
-            int sum = it.second;
-
-            if(sum > maxSum){
-                maxSum = sum;
-                result = level;
+        int maxsum = INT_MIN;
+        int resultlevel = 0;
+        int currentlevel = 1;
+        queue<TreeNode*> que;
+        que.push(root);
+        while(!que.empty()){
+            int n = que.size();
+            int sum= 0;
+            while(n--){
+                TreeNode* node = que.front();
+                que.pop();
+                sum = sum + node->val;
+                if(node->left){
+                    que.push(node->left);
+                }
+                if(node->right){
+                    que.push(node->right);
+                }
             }
+            if(sum > maxsum){
+                maxsum = sum;
+                resultlevel = currentlevel;
+            }
+            currentlevel++;
         }
-        return result;
+        return resultlevel;
     }
-
 };
