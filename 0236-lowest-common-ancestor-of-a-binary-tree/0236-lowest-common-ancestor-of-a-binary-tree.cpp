@@ -1,25 +1,23 @@
 class Solution{
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q){
-        // case 1 
+    TreeNode* lowestCommonAncestor( TreeNode* root, TreeNode* p, TreeNode* q){
         if(root == NULL){
             return NULL;
         }
-
         if(root == p || root == q){
             return root;
         }
+        TreeNode* LeftN = lowestCommonAncestor(root->left, p, q);
+        TreeNode* RightN = lowestCommonAncestor(root->right, p, q);
 
-        TreeNode* leftN = lowestCommonAncestor(root->left, p, q);
-        TreeNode* rightN = lowestCommonAncestor(root->right, p, q);
-
-        if(leftN != NULL && rightN != NULL){
+        if(LeftN != NULL && RightN != NULL){
             return root;
         }
-        if(leftN != NULL){
-            return leftN;
+
+        if(LeftN != NULL){
+            return LeftN;
         } else {
-            return rightN; 
+            return RightN;
         }
     }
 };
